@@ -66,9 +66,6 @@ const RecoveryStories = () => {
   useGSAP(() => {
     if (!containerRef.current || !sectionRef.current) return;
 
-    const cards = gsap.utils.toArray('.story-card');
-    const totalWidth = containerRef.current.scrollWidth - window.innerWidth;
-
     gsap.to(containerRef.current, {
       x: () => -(containerRef.current?.scrollWidth || 0) + window.innerWidth - 80,
       ease: "none",
@@ -103,7 +100,7 @@ const RecoveryStories = () => {
                 key={index}
                 className="story-card flex-shrink-0 w-[300px] md:w-[450px] bg-white p-6 md:p-10 rounded-3xl shadow-sm hover:shadow-md transition-shadow relative border border-gray-100"
               >
-                <Quote className="absolute top-6 right-8 text-brand-light-blue opacity-20" size={40} md:size={48} />
+                <Quote className="absolute top-6 right-8 text-brand-light-blue opacity-20 w-10 h-10 md:w-12 md:h-12" />
                 
                 <div className="flex gap-1 mb-4 text-yellow-400">
                   {[...Array(story.stars)].map((_, i) => (
