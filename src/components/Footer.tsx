@@ -34,8 +34,8 @@ const Footer = () => {
             <ul className="space-y-4 text-white/60">
               <li>Bhogadhi & Gokulam</li>
               <li>Hebbala & Hootagalli</li>
-              <li>Belawadi & South Bengaluru</li>
-              <li>Vijayanagar area</li>
+              <li>Belawadi</li>
+        
             </ul>
           </div>
         </div>
