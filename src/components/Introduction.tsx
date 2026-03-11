@@ -7,7 +7,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const Introduction = () => {
   const containerRef = useRef<HTMLDivElement>(null);
-  const areas = ["Bhogadhi", "Gokulam", "Hebbala", "Hootagalli", "Belawadi", "South Bengaluru"];
+  const areas = ["Bhogadhi", "Gokulam", "Hebbala", "Hootagalli", "Belawadi"];
 
   useGSAP(() => {
     if (!containerRef.current) return;
@@ -51,7 +51,7 @@ const Introduction = () => {
       <div className="section-container relative text-center px-4">
         <div className="max-w-5xl mx-auto">
           <h2 className="intro-heading text-xl md:text-3xl lg:text-4xl font-extrabold text-brand-dark leading-snug mb-8 md:mb-12">
-            As the <span className="bg-gradient-to-r from-brand-link to-brand-light-blue bg-clip-text text-transparent italic">best physiotherapy clinic in Bengaluru</span>, 
+            "As the <span className="bg-gradient-to-r from-brand-link to-brand-light-blue bg-clip-text text-transparent italic">best physiotherapy service in mysore</span>", 
             <br className="hidden md:block" />
             <span className="text-brand-link">Aaroghya</span><span className="text-green-600">shala</span> — led by Dr. Sahana — provides hospital-grade recovery 
             for orthopedic, neurological, and sports conditions.
@@ -74,7 +74,7 @@ const Introduction = () => {
                 ))}
               </div>
               <p className="mt-8 md:mt-10 text-gray-400 font-medium uppercase tracking-widest text-xs md:text-sm">
-                And surrounding South Bengaluru areas
+                And surrounding areas
               </p>
             </div>
           </div>

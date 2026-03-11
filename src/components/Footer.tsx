@@ -15,7 +15,7 @@ const Footer = () => {
               />
             </div>
             <p className="text-white/60 max-w-sm mb-6">
-              Clinical excellence and physiotherapy at your doorstep. We specialize in orthopedic, neurological, and sports conditions across Bengaluru.
+              Clinical excellence and physiotherapy at your doorstep. We specialize in orthopedic, neurological, and sports conditions across Mysore.
             </p>
           </div>
 

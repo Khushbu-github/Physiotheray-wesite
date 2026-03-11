@@ -5,6 +5,7 @@ import Introduction from './components/Introduction';
 import Services from './components/Services';
 import RecoveryStories from './components/RecoveryStories';
 import About from './components/About';
+import TreatmentModalities from './components/TreatmentModalities';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import FloatingContact from './components/FloatingContact';
@@ -19,6 +20,7 @@ function App() {
         <Services />
         <RecoveryStories />
         <About />
+        <TreatmentModalities />
         <Contact />
       </main>
       <Footer />
