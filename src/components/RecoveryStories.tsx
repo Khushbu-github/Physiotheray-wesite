@@ -52,7 +52,7 @@ const stories: Story[] = [
   },
   {
     name: "Ms. Priya",
-    location: "South Bengaluru",
+    location: "Kuvempunagar",
     condition: "Post-Pregnancy Back Pain",
     text: "The core strengthening exercises and manual therapy were perfect for my postpartum recovery. The convenience of home services is unmatched.",
     stars: 5
@@ -86,7 +86,7 @@ const RecoveryStories = () => {
         <div className="text-center mb-16 px-4">
           <h2 className="text-3xl md:text-5xl font-bold text-brand-dark mb-4">Recovery Stories</h2>
           <p className="text-gray-600 max-w-2xl mx-auto text-base md:text-lg">
-            Real stories from patients across Bengaluru who reclaimed their lives with Dr. Sahana.
+            Real stories from patients across Mysore who reclaimed their lives with Dr. Sahana.
           </p>
         </div>
 

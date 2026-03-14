@@ -5,7 +5,7 @@ const FloatingContact = () => {
   return (
     <div className="fixed bottom-8 right-8 z-[70] flex flex-col gap-4">
       <motion.a 
-        href="https://wa.me/9916527752"
+        href="https://wa.me/919916527752"
         target="_blank"
         rel="noopener noreferrer"
         whileHover={{ scale: 1.1 }}
@@ -17,7 +17,7 @@ const FloatingContact = () => {
       </motion.a>
       
       <motion.a 
-        href="tel:9916527752"
+        href="tel:+919916527752"
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
         className="btn-primary w-14 h-14 !p-0 rounded-full shadow-2xl flex items-center justify-center border-4 border-white"

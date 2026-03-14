@@ -83,7 +83,7 @@ const Contact = () => {
                     <p className="font-bold text-base md:text-xl mb-1">Address</p>
                     <p className="text-white/80 text-sm md:text-lg leading-relaxed">
                       Vijayanagar 4th stage, 2nd stage, 3rd stage<br />
-                      Bengaluru, Karnataka
+                      Mysore, Karnataka
                     </p>
                   </div>
                 </div>

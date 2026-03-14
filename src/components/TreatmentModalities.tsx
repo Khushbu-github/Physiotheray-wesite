@@ -86,7 +86,7 @@ const TreatmentModalities = () => {
         <div className="modalities-header text-center mb-12 md:mb-16">
           <h2 className="text-3xl md:text-5xl font-bold text-brand-dark mb-4">ADVANCED TREATMENT MODALITIES</h2>
           <p className="text-gray-600 max-w-4xl mx-auto text-base md:text-lg font-medium leading-relaxed">
-            Hospital-grade equipment and evidence-based modalities available across all three Curis 360 clinics — technology that most standalone physio clinics in Banashankari, Jayanagar, and Vasanthapura simply don't have.
+            Hospital-grade equipment and evidence-based modalities available across all three Curis 360 clinics — technology that most standalone physio clinics in Mysore simply don't have.
           </p>
         </div>
 
